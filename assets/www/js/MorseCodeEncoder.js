@@ -1,0 +1,40 @@
+function encode(charToDecode){
+    var char = charToDecode.toUpperCase();
+    if(char === 'A'){return "sl";}
+    if(char === 'B'){return "lsss";}
+    if(char === 'C'){return "lsls";}
+    if(char === 'D'){return "lss";}
+    if(char === 'E'){return "s";}
+    if(char === 'F'){return "sslss";}
+    if(char === 'G'){return "lls";}
+    if(char === 'H'){return "ssss";}
+    if(char === 'I'){return "ss";}
+    if(char === 'J'){return "slll";}
+    if(char === 'K'){return "lsl";}
+    if(char === 'L'){return "slss";}
+    if(char === 'M'){return "ll";}
+    if(char === 'N'){return "ls";}
+    if(char === 'O'){return "lll";}
+    if(char === 'P'){return "slls";}
+    if(char === 'Q'){return "llsl";}
+    if(char === 'R'){return "sls";}
+    if(char === 'S'){return "sss";}
+    if(char === 'T'){return "l";}
+    if(char === 'U'){return "ssl";}
+    if(char === 'V'){return "sssl";}
+    if(char === 'W'){return "ssll";}
+    if(char === 'X'){return "lssl";}
+    if(char === 'Y'){return "lsll";}
+    if(char === 'Z'){return "llss";}
+    if(char === ' '){return " ";}
+    if(char === '0'){return "lllll";}
+    if(char === '1'){return "sllll";}
+    if(char === '2'){return "sslll";}
+    if(char === '3'){return "sssll";}
+    if(char === '4'){return "ssssl";}
+    if(char === '5'){return "sssss";}
+    if(char === '6'){return "lssss";}
+    if(char === '7'){return "llsss";}
+    if(char === '8'){return "lllss";}
+    if(char === '9'){return "lllls";}
+}
