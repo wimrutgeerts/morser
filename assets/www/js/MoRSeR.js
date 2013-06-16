@@ -1,50 +1,90 @@
- unit=333;
+unit=333;
 
 function signal(){
-    setTimeout(signalAsync, 1000);
+    $("#sendButton").html('Sending');
+    $("#sendButton").attr('disabled', 'disabled');
+    encodeAndStartSignaling();
     $("#sendMessages").append('<div class="sendMessage">'+$("#textToMorse").val()+'</div>');
 }
 
-function signalAsync(){
-
-   var SPACE = " ";
-   var textToSend = $("#textToMorse").val();
-   console.log(textToSend);
+function encodeAndStartSignaling(){
+    var SPACE = " ";
+    var NEW_WORD = "n";
+    var textToSend = $("#textToMorse").val();
+    var encodedText="";
 
     for(var i = 0; i < textToSend.length; i++){
-        var charEncoded = encode(textToSend.charAt(i));
-        console.log(textToSend.charAt(i) + " => " + charEncoded);
-        if(charEncoded === SPACE){
-            pause(unit*7);
-        } else {
-            if(i != 0 && encode(textToSend.charAt(i-1))!==SPACE){
-                pause(unit *3);
-            }
-            sendChar(charEncoded);
+        var encodedChar = encode(textToSend.charAt(i));
+        encodedChar = prepareChar(encodedChar);
+        encodedText = encodedText + encodedChar;
+        if(encodedChar === SPACE){
+            encodedText = encodedText + NEW_WORD;
         }
     }
+    console.log("sending " + encodedText);
+    signalSingleCharAndScheduleNext(encodedText);
 }
 
-function sendChar(charEncoded){
+function prepareChar(encodedChar){
+    var NEW_CHAR = "p" ;
+    var result ="";
+    for(var i = 0; i < encodedChar.length; i++){
+        result += encodedChar.charAt(i) + NEW_CHAR;
+    }
+    return result;
+}
+
+function signalSingleCharAndScheduleNext(encodedText){
+    console.log("sending " + encodedText);
     var SHORT = "s";
     var LONG = "l";
-    console.log("sending " + charEncoded);
 
-    for(var j = 0; j < charEncoded.length; j ++){
-         if(j!=0){
-             pause(unit);
-         }
-         turnOn();
-         if(charEncoded.charAt(j) === SHORT){
-             console.log("short");
-             pause(unit);
-         }
-         if(charEncoded.charAt(j) === LONG){
-             console.log("long");
-             pause(3*unit);
-         }
-         turnOff();
+    var characterToSend = encodedText.charAt(0);
+    var remainingText = encodedText.substring(1, encodedText.length);
 
+    if(characterToSend === SHORT || characterToSend === LONG){
+        turnOn();
+    }
+
+    var waitTime = determineWaitTime(characterToSend);
+
+    console.log("remaining " + encodedText);
+    console.log("over" + waitTime * unit);
+    setTimeout(function(){ continueSending(remainingText)}, waitTime*unit);
+
+}
+function continueSending(remainingText){
+
+    turnOff();
+    if(remainingText.length !== 0){
+
+        signalSingleCharAndScheduleNext(remainingText);
+    } else {
+         $("#sendButton").html('Morse it');
+         $("#sendButton").removeAttr('disabled');
+    }
+}
+function determineWaitTime(characterToSend){
+    var SPACE = " ";
+    var NEW_WORD = "n";
+    var NEW_CHAR = "p" ;
+    var SHORT = "s";
+    var LONG = "l";
+
+    if(characterToSend === SPACE){
+        return 7;
+    }
+    if(characterToSend === NEW_WORD){
+        return 3;
+    }
+    if(characterToSend === NEW_CHAR){
+        return 1;
+    }
+    if(characterToSend === SHORT){
+        return 1;
+    }
+    if(characterToSend === LONG){
+        return 3;
     }
 }
 
@@ -56,15 +96,7 @@ function turnOn(){
 }
 function turnOff(){
       window.plugins.Torch.turnOff(
-             function() { },
-             function() { console.log( "error" ); }
-         );
-}
-
-function pause(millis)
- {
-  var date = new Date();
-  var curDate = null;
-  do { curDate = new Date(); }
-  while(curDate-date < millis);
+         function() { },
+         function() { console.log( "error" ); }
+      );
 }
