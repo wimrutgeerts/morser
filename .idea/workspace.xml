@@ -5,19 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceCodePro-Black.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceCodePro-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceCodePro-ExtraLight.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceCodePro-Light.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceCodePro-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceCodePro-Semibold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-Black.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-BlackIt.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-BoldIt.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-ExtraLight.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-ExtraLightIt.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-It.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-Light.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-LightIt.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-Semibold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/SourceSansPro-SemiboldIt.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/bg_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/breadcrumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/checkbox_checked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/checkbox_checked_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/checkbox_unchecked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/checkbox_unchecked_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/dark-combo-box-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/dark-combo-box-bg2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/dark-grips.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/dark-sprites2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/dialog-zone-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/drop-down-triangle-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/drop-down-triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/light-combo-box-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/light-combo-box-bg2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/light-grips.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/light-sprites2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/pop-up-triangle-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/pop-up-triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/search-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/search-bg2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/spinner2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/font/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/checkmark_bw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/hamburger_bw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/hamburger_dark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/hamburger_light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/css/morser.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/search_bw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/search_dark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/img/search_light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/www/css/topcoat-mobile-dark.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/js/MoRSeR.js" afterPath="$PROJECT_DIR$/assets/www/js/MoRSeR.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/index.html" afterPath="$PROJECT_DIR$/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="morser.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1371231074240" ignored="false" />
-    <file path="/MoRSeR.js" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1371393072309" ignored="false" />
+    <file path="/index.html" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1371493052214" ignored="false" />
+    <file path="/MoRSeR.js" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1371492281970" ignored="false" />
     <file path="/fragment.java" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1370719136794" ignored="false" />
     <file path="/MorseCodeEncoder.js" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1370863585791" ignored="false" />
     <file path="/index.css" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1371056633106" ignored="false" />
     <file path="/Dummy.txt" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1371395732334" ignored="false" />
+    <file path="/morser.css" changelist="c5cc31d8-5e7e-4c66-bf4e-130f0adcd6bc" time="1371493098462" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,26 +131,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="MoRSeR.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/js/MoRSeR.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="20" selection-start="158" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="43" selection-start="1886" selection-end="1886" vertical-scroll-proportion="-25.0">
+            <state line="30" column="36" selection-start="1404" selection-end="1412" vertical-scroll-proportion="-10.666667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="161" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cordova-2.6.0.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/cordova-2.6.0.js">
+      <file leaf-file-name="topcoat-mobile-dark.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/css/topcoat-mobile-dark.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -105,10 +158,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoRSeR.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/www/js/MoRSeR.js">
+      <file leaf-file-name="morser.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/www/css/morser.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="39" selection-start="1955" selection-end="1955" vertical-scroll-proportion="1.9418386">
+            <state line="11" column="22" selection-start="146" selection-end="146" vertical-scroll-proportion="0.3095685">
               <folding />
             </state>
           </provider>
@@ -181,9 +234,10 @@
         <option value="$PROJECT_DIR$/assets/www/js/MorseCodeEncoder.js" />
         <option value="$PROJECT_DIR$/assets/www/js/jquery-1.10.1.min.js" />
         <option value="$PROJECT_DIR$/assets/www/css/index.css" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/assets/www/js/appShutDown.js" />
         <option value="$PROJECT_DIR$/assets/www/js/MoRSeR.js" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/css/morser.css" />
       </list>
     </option>
   </component>
@@ -360,28 +414,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -406,6 +438,14 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/www/img" />
+      <recent name="$PROJECT_DIR$/assets/www/font" />
+      <recent name="$PROJECT_DIR$/assets/www/css" />
+      <recent name="$PROJECT_DIR$/assets/www" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.morser">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -729,23 +769,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/cordova-2.6.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/jquery-1.10.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="163" selection-start="93064" selection-end="93064" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="161" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -771,16 +797,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/font/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="43" selection-start="1886" selection-end="1886" vertical-scroll-proportion="-25.0">
+        <state line="15" column="35" selection-start="833" selection-end="833" vertical-scroll-proportion="0.4527163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="161" selection-start="1277" selection-end="1277" vertical-scroll-proportion="1.4071294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/cordova-2.6.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/topcoat-mobile-dark.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/MoRSeR.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="39" selection-start="1955" selection-end="1955" vertical-scroll-proportion="1.9418386">
+        <state line="6" column="20" selection-start="158" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="36" selection-start="1404" selection-end="1412" vertical-scroll-proportion="-10.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/morser.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="146" selection-end="146" vertical-scroll-proportion="0.3095685">
           <folding />
         </state>
       </provider>

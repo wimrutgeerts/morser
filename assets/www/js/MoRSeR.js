@@ -4,7 +4,7 @@ function signal(){
     $("#sendButton").html('Sending');
     $("#sendButton").attr('disabled', 'disabled');
     encodeAndStartSignaling();
-    $("#sendMessages").append('<div class="sendMessage">'+$("#textToMorse").val()+'</div>');
+    $("#sendMessages").append('<li class="topcoat-list__item">'+$("#textToMorse").val()+'</li>');
 }
 
 function encodeAndStartSignaling(){
